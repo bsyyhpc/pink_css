@@ -4,6 +4,7 @@
 }
 body {
   background-color: #f3f5f7;
+  height: 3000px;
 }
 li {
   list-style: none;
@@ -147,4 +148,86 @@ a {
   color: #00a4ff;
   font-size: 16px;
   font-weight: 700;
+}
+/* 精品推荐模块 */
+.goods {
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 3px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  /* 行高会继承给三个孩子 */
+  line-height: 60px;
+}
+.goods h3 {
+  float: left;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #00a4ff;
+}
+.goods ul {
+  float: left;
+  margin-left: 30px;
+}
+.goods ul li {
+  float: left;
+}
+.goods ul li a {
+  padding: 0 30px;
+  font-size: 16px;
+  color: #050505;
+  border-left: solid #ccc;
+}
+.mod {
+  float: right;
+  margin-right: 30px;
+  font-size: 14px;
+  color: #00a4ff;
+}
+.box {
+  margin-top: 30px;
+}
+.box-hd {
+  /* 给 .box-hd 设置 height: 45px;，即使里面的内容浮动，.box-hd 也会有 45px 的高度，不会塌陷。 */
+  height: 45px;
+}
+.box-hd h3 {
+  float: left;
+  font-size: 20px;
+  color: #494949;
+}
+.box-hd a {
+  float: right;
+  font-size: 12px;
+  color: #a5a5a5;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+/*把ul设置的足够宽，够五个盒子排在一行*/
+.box-bd ul {
+  width: 1225px;
+}
+.box-bd ul li {
+  float: left;
+  width: 228px;
+  height: 270px;
+  background-color: #fff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.box-bd ul li img {
+  width: 100%;
+}
+.box-bd ul li h4 {
+  margin: 20px 20px 20px 25px;
+  font-size: 14px;
+  color: #050505;
+  font-weight: 400;
+}
+.box-bd  .info {
+  margin: 0 20px 0 25px;
+  font-size: 12px;
+  color: #999;
+}
+.box-bd .info span {
+  color: #ff7c2d;
 }
