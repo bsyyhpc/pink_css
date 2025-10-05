@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>相对于版心的固定定位</title>
+    <style>
+      .home {
+        height: 1000px;
+        width: 600px;
+        background-color: pink;
+        margin: 0 auto;
+      }
+      .fixed {
+        height: 300px;
+        width: 30px;
+        position: fixed;
+        left: 50%; /* 浏览器一半的宽度 */
+        margin-left: 300px;
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixed">固定定位盒子</div>
+    <div class="home">版心盒子</div>
+  </body>
+</html>
