@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>结构伪类选择器</title>
+  <style>
+    ul li:nth-child(even) {/* 权重1+1+10=12 */
+      background-color: aliceblue;
+    }
+    ol li:nth-child(2n+1) {/* 括号里公式的字母只能是n，不能是其他字母。n从0开始 */
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>我是小李1</li>
+    <li>我是小李2</li>
+    <li>我是小李3</li>
+    <li>我是小李4</li>
+    <li>我是小李5</li>
+    <li>我是小李6</li>
+  </ul>
+  <ol>
+    <li>我是小李1</li>
+    <li>我是小李2</li>
+    <li>我是小李3</li>
+    <li>我是小李4</li>
+    <li>我是小李5</li>
+    <li>我是小李6</li>
+  </ol>
+</body>
+</html>
