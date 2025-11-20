@@ -28,5 +28,30 @@
 5. 伪元素选择器和标签选择器一样,权重为1
 ##### 伪元素选择器使用场景
 1. 伪元素字体图标
-2. 
-
+2. 仿土豆网显示隐藏遮罩层
+3. 伪元素清除浮动
+> 清除浮动的方式：
+> 1. 额外标签法，是W3C推荐的一种做法
+> 2. 父级添加overflow属性
+> 3. 父级添加after伪元素
+> 4. 父级添加双伪元素
+```css
+# 伪元素清除浮动示例代码
+.clearfix::after {
+  content: "";
+  display: block; # 必须是块级元素
+  height: 0; # 不要看见这个元素
+  clear: both; # 核心清除浮动代码
+  visibility: hiddien; # 不要看见这个元素
+}
+```
+```css
+# 双伪元素清除浮动核心代码
+.clearfix::before,.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+```
