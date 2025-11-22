@@ -55,3 +55,20 @@
   clear: both;
 }
 ```
+## CSS3盒子模型
+CSS3中可以通过box-sizing来指定盒模型，有2个值：content-box、border-box，这样我们计算盒子的大小方式就发生了变化。
+
+可以分成2种情况：
+1. box-sizing:content-box  ->盒子大小为width+padding+border
+2. box-sizing:border-box  ->盒子大小为width
+## 图片模糊处理
+```css
+filter: blur(1px)
+```
+## CSS3 calc函数
+calc() 函数在声明CSS属性时执行一些计算。
+
+## CSS3过渡（重点）
+> transition:要过渡的属性 花费时间 运动曲线 何时开始
+
+

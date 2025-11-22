@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3过渡效果</title>
+  <style>
+    div {
+      width: 200px;
+      height: 100px;
+      background-color: pink;
+      /* 过渡属性要写在原始样式中，等待被触发 */
+      transition: width 4s ease, height 4s ease;
+      /* 属性都变化可以使用all */
+      /* transition: all 4s; */
+    }
+    div:hover {
+      width: 400px;
+      height: 200px; /* 触发变化，仅改变属性值 */
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
