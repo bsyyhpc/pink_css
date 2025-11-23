@@ -69,6 +69,6 @@ filter: blur(1px)
 calc() 函数在声明CSS属性时执行一些计算。
 
 ## CSS3过渡（重点）
-> transition:要过渡的属性 花费时间 运动曲线 何时开始
+> transition:要过渡的属性 花费时间 运动曲线 何时开始 
 
 
