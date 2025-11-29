@@ -1,0 +1,41 @@
+/* 版心 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 快捷导航栏 */
+.shortcut {
+  height: 31px;
+  background-color: #f1f1f1;
+  /* 文字垂直居中 */
+  line-height: 31px;
+}
+
+/* 快捷导航栏左盒子*/
+.fl {
+  float: left;
+}
+
+/* 快捷导航栏右盒子*/
+.fr {
+  float: right;
+}
+
+/* 快捷导航栏盒子内部的li需要浮动 */
+.shortcut ul li {
+  float: left;
+}
+
+/* 红色文字样式 */
+.red_style {
+  color: #c81623;
+}
+
+/* 快捷导航栏右侧盒子内部的分割线li样式 */
+.shortcut .fr ul li:nth-child(even) {
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 9px 15px 0;
+}
