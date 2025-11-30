@@ -59,3 +59,27 @@
   font-style: normal;
   font-display: block;
 }
+/* header模块样式 */
+.header {
+  position: relative;
+  height: 105px;
+  background-color: pink;
+}
+
+/* logo盒子样式 */
+.logo {
+  /* 定位注意子绝父相 */
+  position: absolute;
+  top: 25px;
+  width: 171px;
+  height: 61px;
+}
+
+/* logo中a标签的样式 */
+.logo a {
+  display: block;
+  width: 171px;
+  height: 61px;
+  background: url(../images/logo.png) no-repeat;
+  font-size: 0;
+}
