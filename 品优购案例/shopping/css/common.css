@@ -39,3 +39,23 @@
   background-color: #666;
   margin: 9px 15px 0;
 }
+
+/* 伪元素+字体图标全实现下拉图标 */
+.fr .arrow-icon::after {
+  content: "\e91e";
+  margin-left: 6px;
+  font-family: 'icomoon';
+}
+
+/* 字体图标样式 */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tomleg');
+  src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
