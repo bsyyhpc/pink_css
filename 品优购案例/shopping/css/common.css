@@ -116,3 +116,30 @@
 .hotwords a {
   margin: 0 10px;
 }
+
+/* 购物车模块 */
+.shoppingcar {
+  position: absolute;
+  right: 60px;
+  top: 25px;
+  width: 140px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+}
+
+/* 购物车模块购物车图标 */
+.shoppingcar::before {
+  font-family: "icomoon";
+  content: "\e93a";
+  color: #b1191a;
+  margin-right: 5px;
+}
+/* 购物车模块右箭头图标 */
+.shoppingcar::after {
+  font-family: "icomoon";
+  content: "\e920";
+  margin-left: 10px;
+}
