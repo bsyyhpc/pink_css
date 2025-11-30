@@ -143,3 +143,15 @@
   content: "\e920";
   margin-left: 10px;
 }
+/* 购物车数量统计模块 */
+.shopcount {
+  position: absolute;
+  top: -4px;
+  left: 95px;
+  border-radius: 7px 7px 7px 0;
+  height: 14px;
+  line-height: 14px;
+  background-color: #e60012;
+  color: #fff;
+  padding: 0 5px;
+}
