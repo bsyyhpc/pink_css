@@ -182,6 +182,7 @@
   width: 100%;
   height: 465px;
   background-color: #c81623;
+  margin-top: 2px;
 }
 .dropdown .dd ul li {
   position: relative;
@@ -209,4 +210,15 @@
 }
 .dropdown .dd ul li:hover a {
   color: #c81623;
+}
+
+.navitems ul li {
+  float: left;
+}
+.navitems ul li a {
+  display: block;
+  padding: 0 25px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
 }
