@@ -253,24 +253,37 @@
   font-size: 12px;
 }
 
-.service_help {
+.help_mod {
   padding-top: 20px;
   padding-left: 50px;
   height: 185px;
   border-bottom: 1px solid #ccc;
 }
-.service_help dl {
+.help_mod dl {
   float: left;
   width: 200px;
 }
-.service_help dl:last-child {
+.help_mod dl:last-child {
   width: 90px;
   text-align: center;
 }
-.service_help dl dt {
+.help_mod dl dt {
   font-size: 16px;
   margin-bottom: 10px;
 }
-.service_help dl dd {
+.help_mod dl dd {
   font-size: 12px;
+}
+.copyright_mod {
+  text-align: center;
+  padding-top: 20px;
+}
+.copyright_mod .link {
+  margin-bottom: 15px;
+}
+.copyright_mod .link a {
+  margin: 0 3px;
+}
+.copyright_mod .copyright {
+  line-height: 20px;
 }
