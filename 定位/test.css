@@ -1,0 +1,23 @@
+/* 父容器：作为绝对定位的参考基准 */
+.parent {
+  width: 300px;
+  height: 300px;
+  background: #eee;
+  position: relative; /* 关键：父元素设relative，子元素absolute就以它为基准 */
+  margin: 20px;
+}
+/* 子元素：绝对定位 */
+.absolute-box {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  position: absolute;
+  /* 相对于父元素：向下50px，向右50px */
+  top: 50px;
+  left: 50px;
+}
+.no-position {
+  height: 80px;
+  width: 80px;
+  background-color: pink;
+}
