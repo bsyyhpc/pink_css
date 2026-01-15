@@ -120,3 +120,23 @@
   top: 10px;
   right: 0;
 }
+.box-hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+.box-hd .tab_list {
+  float: right;
+  line-height: 30px;
+}
+.box-hd .tab_list ul li {
+  float: left;
+}
+.box-hd .tab_list ul li a {
+  margin: 0 15px;
+}
