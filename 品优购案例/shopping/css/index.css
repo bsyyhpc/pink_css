@@ -140,3 +140,25 @@
 .box-hd .tab_list ul li a {
   margin: 0 15px;
 }
+.floor .w {
+  margin-top: 30px;
+}
+.box_bd {
+  height: 361px;
+  background-color: pink;
+}
+.tab_list_item >div{
+  float: left;
+}
+.col_210 {
+  width: 210px;
+}
+.col_329 {
+  width: 329px;
+}
+.col_221 {
+  width: 221px;
+}
+.col_219 {
+  width: 219px;
+}
